@@ -1,13 +1,17 @@
-from flask import Flask
 """
 asd
 """
+from flask import Flask
+
 
 app = Flask(__name__)
 
 
 @app.route('/')
 def index():
+    """
+    asd2
+    """
     return "<h1>Hello WSB! Greetings from Flask!</h1>"
 
 
