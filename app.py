@@ -9,6 +9,6 @@ def index():
 
 
 @app.route('/hello/')
-@app.route('/hello/<name>')
+@app.route('/hello/wojtek')
 def hello(name=None):
     return render_template('hello.html', name=name)
